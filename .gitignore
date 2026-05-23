@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Secrets / local config
+.env
+.env.*
+*.env
+application.properties
+application-*.properties
+aplication.properties
+aplication-*.properties
+backend/src/main/resources/application.properties
+backend/src/main/resources/application-*.properties
+backend/src/test/resources/application.properties
+backend/src/test/resources/application-*.properties
+!application-example.properties
+!application-*.example.properties
+
+# Java / Spring
+target/
+build/
+*.class
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Logs
+*.log
